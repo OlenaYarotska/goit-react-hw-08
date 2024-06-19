@@ -1,0 +1,21 @@
+.linksWrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.link {
+    text-decoration: none;
+    color: #1ab0c4;
+    background-color: #fefefe;
+    padding: 4px 6px;
+    border-radius: 5px;
+    font-size: 18px;
+    align-items: center;
+}
+
+.link:hover,
+.link:focus {
+    color: #fefefe;
+    background-color:#1ab0c4;
+    transition: background-color 0.4s, color 0.4s;
+}

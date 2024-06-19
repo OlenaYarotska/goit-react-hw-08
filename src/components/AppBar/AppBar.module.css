@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 2px solid rgb(172, 172, 172);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}

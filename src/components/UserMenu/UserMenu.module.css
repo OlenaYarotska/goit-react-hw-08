@@ -1,0 +1,29 @@
+.userMenu {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.text {
+    font-size: 18px;
+    color: #000000;
+}
+
+.button {
+    border: none;
+    padding: 3px 4px;
+    background-color: transparent;
+    color: #cf3946;
+    font-size: 24px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+}
+
+.button:hover,
+.button:focus {
+    border-radius: 50%;
+    color: #f7eeee;
+    background-color: #cf3946;
+}
